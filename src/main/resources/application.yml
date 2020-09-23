@@ -3,10 +3,10 @@ zuul:
   routes:
     products:
       path: /products/**
-      url: products-service
+      url: products-service:5000
     orders:
       path: /orders/**
-      url: orders-service
+      url: orders-service:3000
 
 eureka:
   client:
