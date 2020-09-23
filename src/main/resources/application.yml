@@ -3,7 +3,7 @@ zuul:
     products:
       path: /products/**
       url: products-service
-    images:
+    orders:
       path: /orders/**
       url: orders-service
 
